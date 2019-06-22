@@ -1,7 +1,6 @@
-import { TOGGLE_TODO, ADD_NEW_TODO } from '../actions';
+import { TOGGLE_TODO, ADD_NEW_TODO } from '../actions/index';
 
 const initialState = {
-  title: 'The Best Todo App',
   todos: [
     { todo: 'Run create-react-app todo', completed: false },
     { todo: 'Run yarn install', completed: false },
