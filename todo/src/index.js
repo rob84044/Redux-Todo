@@ -8,7 +8,7 @@ import { createStore } from 'redux';
 import { Provider } from 'react-redux';
 import todos from './reducers';
 
-const store = createStore(rootReducer);
+const store = createStore(todos);
 
 ReactDOM.render(
   <Provider store={store}>
