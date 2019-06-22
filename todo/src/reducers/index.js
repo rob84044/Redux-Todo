@@ -13,7 +13,7 @@ const initialState = {
   ]
 };
 
-function reducer(state = initialState, action) {
+export default (state = initialState, action) => {
   switch (action.type) {
     case ADD_NEW_TODO:
       return {
@@ -32,6 +32,4 @@ function reducer(state = initialState, action) {
     default:
       return state;
   }
-}
-
-export default reducer;
+};
